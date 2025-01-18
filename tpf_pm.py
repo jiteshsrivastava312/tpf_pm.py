@@ -12,6 +12,7 @@ logging.basicConfig(
 # Database connection configuration
 db_config = {
     "host": "192.168.160.33",
+    "port": "5433",
     "database": "verve",
     "user": "postgres",
     "password": "Avis!123"
