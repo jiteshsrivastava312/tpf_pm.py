@@ -16,6 +16,7 @@ db_config = {
     "user": "postgres",
     "password": "Avis!123"
 }
+connection = None  # Initialize connection as None to handle unassigned variable
 
 try:
     # Log the start of the script
