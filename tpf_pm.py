@@ -65,6 +65,7 @@ except Exception as e:
 
 finally:
     if connection:
-        cursor.close()
         connection.close()
         logging.info("Database connection closed.")
+    else:
+        logging.warning("No database connection to close.")
